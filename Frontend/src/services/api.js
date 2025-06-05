@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3000/api/reminders';
+const API_BASE_URL = 'https://zooco-frontend-development-task.onrender.com/api/reminders';
 
 export const getReminders = async () => {
   const res = await axios.get(API_BASE_URL);
